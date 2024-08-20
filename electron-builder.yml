@@ -1,0 +1,12 @@
+appId: com.koonindustries.herald
+productName: Herald
+copyright: Copyright © 2024 Max Koon
+directories:
+    output: dist
+    buildResources: resources
+files:
+    - from: .
+      filter:
+          - package.json
+          - app
+publish: null
